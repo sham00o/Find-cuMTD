@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF2018C1BB9CF9000DAB281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2018B1BB9CF9000DAB281 /* AppDelegate.swift */; };
+		DCF2018E1BB9CF9000DAB281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2018D1BB9CF9000DAB281 /* ViewController.swift */; };
+		DCF201911BB9CF9000DAB281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF2018F1BB9CF9000DAB281 /* Main.storyboard */; };
+		DCF201961BB9CF9000DAB281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF201951BB9CF9000DAB281 /* Assets.xcassets */; };
+		DCF201991BB9CF9000DAB281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF201971BB9CF9000DAB281 /* LaunchScreen.storyboard */; };
+		DCF201A41BB9CF9000DAB281 /* CUMTD_to_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF201A31BB9CF9000DAB281 /* CUMTD_to_GoTests.swift */; };
+		DCF201AF1BB9CF9000DAB281 /* CUMTD_to_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF201AE1BB9CF9000DAB281 /* CUMTD_to_GoUITests.swift */; };
+		DCF201C11BBA0F1B00DAB281 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF201C01BBA0F1B00DAB281 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF201A01BB9CF9000DAB281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF201801BB9CF9000DAB281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF201871BB9CF9000DAB281;
+			remoteInfo = "CUMTD-to-Go";
+		};
+		DCF201AB1BB9CF9000DAB281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF201801BB9CF9000DAB281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF201871BB9CF9000DAB281;
+			remoteInfo = "CUMTD-to-Go";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF201881BB9CF9000DAB281 /* Find-MTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find-MTD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF2018B1BB9CF9000DAB281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCF2018D1BB9CF9000DAB281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCF201901BB9CF9000DAB281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF201951BB9CF9000DAB281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF201981BB9CF9000DAB281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCF2019A1BB9CF9000DAB281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF2019F1BB9CF9000DAB281 /* Find-MTD.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-MTD.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF201A31BB9CF9000DAB281 /* CUMTD_to_GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUMTD_to_GoTests.swift; sourceTree = "<group>"; };
+		DCF201A51BB9CF9000DAB281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF201AA1BB9CF9000DAB281 /* Find-MTD.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find-MTD.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF201AE1BB9CF9000DAB281 /* CUMTD_to_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUMTD_to_GoUITests.swift; sourceTree = "<group>"; };
+		DCF201B01BB9CF9000DAB281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF201C01BBA0F1B00DAB281 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF201851BB9CF9000DAB281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF201C11BBA0F1B00DAB281 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2019C1BB9CF9000DAB281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF201A71BB9CF9000DAB281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF2017F1BB9CF9000DAB281 = {
+			isa = PBXGroup;
+			children = (
+				DCF201C01BBA0F1B00DAB281 /* MapKit.framework */,
+				DCF2018A1BB9CF9000DAB281 /* Find-MTD */,
+				DCF201A21BB9CF9000DAB281 /* Find-MTDTests */,
+				DCF201AD1BB9CF9000DAB281 /* Find-MTDUITests */,
+				DCF201891BB9CF9000DAB281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF201891BB9CF9000DAB281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF201881BB9CF9000DAB281 /* Find-MTD.app */,
+				DCF2019F1BB9CF9000DAB281 /* Find-MTD.xctest */,
+				DCF201AA1BB9CF9000DAB281 /* Find-MTD.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF2018A1BB9CF9000DAB281 /* Find-MTD */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2018B1BB9CF9000DAB281 /* AppDelegate.swift */,
+				DCF2018D1BB9CF9000DAB281 /* ViewController.swift */,
+				DCF2018F1BB9CF9000DAB281 /* Main.storyboard */,
+				DCF201951BB9CF9000DAB281 /* Assets.xcassets */,
+				DCF201971BB9CF9000DAB281 /* LaunchScreen.storyboard */,
+				DCF2019A1BB9CF9000DAB281 /* Info.plist */,
+			);
+			name = "Find-MTD";
+			path = "CUMTD-to-Go";
+			sourceTree = "<group>";
+		};
+		DCF201A21BB9CF9000DAB281 /* Find-MTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF201A31BB9CF9000DAB281 /* CUMTD_to_GoTests.swift */,
+				DCF201A51BB9CF9000DAB281 /* Info.plist */,
+			);
+			name = "Find-MTDTests";
+			path = "CUMTD-to-GoTests";
+			sourceTree = "<group>";
+		};
+		DCF201AD1BB9CF9000DAB281 /* Find-MTDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF201AE1BB9CF9000DAB281 /* CUMTD_to_GoUITests.swift */,
+				DCF201B01BB9CF9000DAB281 /* Info.plist */,
+			);
+			name = "Find-MTDUITests";
+			path = "CUMTD-to-GoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF201871BB9CF9000DAB281 /* Find-MTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF201B31BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTD" */;
+			buildPhases = (
+				DCF201841BB9CF9000DAB281 /* Sources */,
+				DCF201851BB9CF9000DAB281 /* Frameworks */,
+				DCF201861BB9CF9000DAB281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find-MTD";
+			productName = "CUMTD-to-Go";
+			productReference = DCF201881BB9CF9000DAB281 /* Find-MTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF2019E1BB9CF9000DAB281 /* Find-MTDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF201B61BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTDTests" */;
+			buildPhases = (
+				DCF2019B1BB9CF9000DAB281 /* Sources */,
+				DCF2019C1BB9CF9000DAB281 /* Frameworks */,
+				DCF2019D1BB9CF9000DAB281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF201A11BB9CF9000DAB281 /* PBXTargetDependency */,
+			);
+			name = "Find-MTDTests";
+			productName = "CUMTD-to-GoTests";
+			productReference = DCF2019F1BB9CF9000DAB281 /* Find-MTD.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF201A91BB9CF9000DAB281 /* Find-MTDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF201B91BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTDUITests" */;
+			buildPhases = (
+				DCF201A61BB9CF9000DAB281 /* Sources */,
+				DCF201A71BB9CF9000DAB281 /* Frameworks */,
+				DCF201A81BB9CF9000DAB281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF201AC1BB9CF9000DAB281 /* PBXTargetDependency */,
+			);
+			name = "Find-MTDUITests";
+			productName = "CUMTD-to-GoUITests";
+			productReference = DCF201AA1BB9CF9000DAB281 /* Find-MTD.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF201801BB9CF9000DAB281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iSam;
+				TargetAttributes = {
+					DCF201871BB9CF9000DAB281 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DCF2019E1BB9CF9000DAB281 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DCF201871BB9CF9000DAB281;
+					};
+					DCF201A91BB9CF9000DAB281 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DCF201871BB9CF9000DAB281;
+					};
+				};
+			};
+			buildConfigurationList = DCF201831BB9CF9000DAB281 /* Build configuration list for PBXProject "Find-MTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF2017F1BB9CF9000DAB281;
+			productRefGroup = DCF201891BB9CF9000DAB281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF201871BB9CF9000DAB281 /* Find-MTD */,
+				DCF2019E1BB9CF9000DAB281 /* Find-MTDTests */,
+				DCF201A91BB9CF9000DAB281 /* Find-MTDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF201861BB9CF9000DAB281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF201991BB9CF9000DAB281 /* LaunchScreen.storyboard in Resources */,
+				DCF201961BB9CF9000DAB281 /* Assets.xcassets in Resources */,
+				DCF201911BB9CF9000DAB281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2019D1BB9CF9000DAB281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF201A81BB9CF9000DAB281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF201841BB9CF9000DAB281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2018E1BB9CF9000DAB281 /* ViewController.swift in Sources */,
+				DCF2018C1BB9CF9000DAB281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF2019B1BB9CF9000DAB281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF201A41BB9CF9000DAB281 /* CUMTD_to_GoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF201A61BB9CF9000DAB281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF201AF1BB9CF9000DAB281 /* CUMTD_to_GoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF201A11BB9CF9000DAB281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF201871BB9CF9000DAB281 /* Find-MTD */;
+			targetProxy = DCF201A01BB9CF9000DAB281 /* PBXContainerItemProxy */;
+		};
+		DCF201AC1BB9CF9000DAB281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF201871BB9CF9000DAB281 /* Find-MTD */;
+			targetProxy = DCF201AB1BB9CF9000DAB281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCF2018F1BB9CF9000DAB281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF201901BB9CF9000DAB281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF201971BB9CF9000DAB281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF201981BB9CF9000DAB281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF201B11BB9CF9000DAB281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF201B21BB9CF9000DAB281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF201B41BB9CF9000DAB281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CUMTD-to-Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.Find-MTD";
+				PRODUCT_NAME = "Find-MTD";
+			};
+			name = Debug;
+		};
+		DCF201B51BB9CF9000DAB281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CUMTD-to-Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.Find-MTD";
+				PRODUCT_NAME = "Find-MTD";
+			};
+			name = Release;
+		};
+		DCF201B71BB9CF9000DAB281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CUMTD-to-GoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.CUMTD-to-GoTests";
+				PRODUCT_NAME = "Find-MTD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find-MTD.app/Find-MTD";
+			};
+			name = Debug;
+		};
+		DCF201B81BB9CF9000DAB281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CUMTD-to-GoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.CUMTD-to-GoTests";
+				PRODUCT_NAME = "Find-MTD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find-MTD.app/Find-MTD";
+			};
+			name = Release;
+		};
+		DCF201BA1BB9CF9000DAB281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CUMTD-to-GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.CUMTD-to-GoUITests";
+				PRODUCT_NAME = "Find-MTD";
+				TEST_TARGET_NAME = "CUMTD-to-Go";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCF201BB1BB9CF9000DAB281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CUMTD-to-GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSam.CUMTD-to-GoUITests";
+				PRODUCT_NAME = "Find-MTD";
+				TEST_TARGET_NAME = "CUMTD-to-Go";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF201831BB9CF9000DAB281 /* Build configuration list for PBXProject "Find-MTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF201B11BB9CF9000DAB281 /* Debug */,
+				DCF201B21BB9CF9000DAB281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF201B31BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF201B41BB9CF9000DAB281 /* Debug */,
+				DCF201B51BB9CF9000DAB281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF201B61BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF201B71BB9CF9000DAB281 /* Debug */,
+				DCF201B81BB9CF9000DAB281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF201B91BB9CF9000DAB281 /* Build configuration list for PBXNativeTarget "Find-MTDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF201BA1BB9CF9000DAB281 /* Debug */,
+				DCF201BB1BB9CF9000DAB281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF201801BB9CF9000DAB281 /* Project object */;
+}

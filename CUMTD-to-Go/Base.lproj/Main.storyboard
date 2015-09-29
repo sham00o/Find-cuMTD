@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4Z8-Bp-c1B">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Find MTD-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Find_MTD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hgM-UZ-vAV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="dW9-aW-W9b"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ia8-Fw-HpF">
+                                <rect key="frame" x="16" y="617" width="343" height="33"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="find buses">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="request:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejO-1r-FGy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="timestamp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hBC-cq-eC0">
+                                <rect key="frame" x="16" y="590.5" width="343" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hgM-UZ-vAV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0UM-GW-4WB"/>
+                            <constraint firstItem="Ia8-Fw-HpF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4BC-XW-aaQ"/>
+                            <constraint firstItem="Ia8-Fw-HpF" firstAttribute="top" secondItem="hBC-cq-eC0" secondAttribute="bottom" constant="8" id="BaS-bW-ufh"/>
+                            <constraint firstItem="Ia8-Fw-HpF" firstAttribute="top" secondItem="hgM-UZ-vAV" secondAttribute="bottom" constant="-48" id="GdB-oL-8Mq"/>
+                            <constraint firstItem="Ia8-Fw-HpF" firstAttribute="top" secondItem="hgM-UZ-vAV" secondAttribute="bottom" constant="8" id="Ioi-xG-5wB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ia8-Fw-HpF" secondAttribute="trailing" id="XAO-ja-6By"/>
+                            <constraint firstItem="hgM-UZ-vAV" firstAttribute="top" secondItem="Ia8-Fw-HpF" secondAttribute="bottom" constant="8" id="Yhd-yg-sAG"/>
+                            <constraint firstItem="hBC-cq-eC0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aoe-9D-dXk"/>
+                            <constraint firstItem="Ia8-Fw-HpF" firstAttribute="top" secondItem="hgM-UZ-vAV" secondAttribute="bottom" id="dEg-dz-N7H"/>
+                            <constraint firstAttribute="trailing" secondItem="hgM-UZ-vAV" secondAttribute="trailing" id="kaj-cn-eCw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hBC-cq-eC0" secondAttribute="trailing" id="mvq-n5-VVY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hgM-UZ-vAV" secondAttribute="bottom" id="rL1-DK-5lM"/>
+                            <constraint firstItem="hgM-UZ-vAV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="v82-OS-liB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hgM-UZ-vAV" secondAttribute="bottom" id="zwd-vU-Gjs"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Yhd-yg-sAG"/>
+                                <exclude reference="Ioi-xG-5wB"/>
+                                <exclude reference="dEg-dz-N7H"/>
+                                <exclude reference="zwd-vU-Gjs"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Find MTD" id="06A-6i-zeI"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="map" destination="hgM-UZ-vAV" id="uZI-3Y-cAT"/>
+                        <outlet property="timestamp" destination="hBC-cq-eC0" id="e4h-6G-a1R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116.5" y="372.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qgh-1D-tqi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Z8-Bp-c1B" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ux2-Fr-fMR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lsm-cO-QIt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdY-fG-JLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="372"/>
+        </scene>
+    </scenes>
+</document>
